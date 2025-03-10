@@ -1,0 +1,91 @@
+{
+  "exercises": [
+    {
+      "name": "Box Breathing",
+      "inhale": 4,
+      "hold": 4,
+      "exhale": 4,
+      "rounds": 4,
+      "inhaleIncrement": 0,
+      "holdIncrement": 0,
+      "exhaleIncrement": 0,
+      "description": "Esercizio semplice che aiuta a calmare la mente. Inspira, trattieni ed espira in modo uniforme.",
+      "alternateNostril": false,
+      "retentionAfterInhalation": true
+    },
+    {
+      "name": "Reverse Retention Breathing",
+      "inhale": 4,
+      "hold": 4,
+      "exhale": 4,
+      "rounds": 4,
+      "inhaleIncrement": 0,
+      "holdIncrement": 0,
+      "exhaleIncrement": 0,
+      "description": "In questo esercizio, la ritenzione viene eseguita dopo l'espulsione.",
+      "alternateNostril": false,
+      "retentionAfterInhalation": false
+    },
+    {
+      "name": "Custom Advanced Round",
+      "customSequence": [
+        { "phase": "inhale", "duration": 5 },
+        { "phase": "exhale", "duration": 5 },
+        { "phase": "hold", "duration": 10 },
+        { "phase": "inhale", "duration": 5 },
+        { "phase": "hold", "duration": 10 },
+        { "phase": "exhale", "duration": 5 },
+        { "phase": "inhale", "duration": 5 }
+      ],
+      "rounds": 3,
+      "inhale": 0,
+      "hold": 0,
+      "exhale": 0,
+      "inhaleIncrement": 0,
+      "holdIncrement": 0,
+      "exhaleIncrement": 0,
+      "description": "Esercizio avanzato con sequenza personalizzata.",
+      "alternateNostril": false,
+      "retentionAfterInhalation": true
+    },
+    {
+      "name": "Nadi Shodhana",
+      "inhale": 4,
+      "hold": 4,
+      "exhale": 4,
+      "rounds": 6,
+      "inhaleIncrement": 0,
+      "holdIncrement": 0,
+      "exhaleIncrement": 0,
+      "description": "Questa pratica di respirazione alternata pulisce i canali energetici e bilancia il flusso vitale. Alterna le narici ad ogni round.",
+      "alternateNostril": true,
+      "retentionAfterInhalation": true
+    },
+    {
+      "name": "Sama Vritti (Equal Breathing)",
+      "inhale": 4,
+      "hold": 4,
+      "exhale": 4,
+      "rounds": 4,
+      "inhaleIncrement": 0,
+      "holdIncrement": 0,
+      "exhaleIncrement": 0,
+      "description": "Questa tecnica aiuta a bilanciare il sistema nervoso e la mente, mantenendo il respiro uguale in ogni fase.",
+      "alternateNostril": false,
+      "retentionAfterInhalation": true
+    },
+    {
+      "name": "Ujjayi Pranayama",
+      "inhale": 5,
+      "hold": 0,
+      "exhale": 5,
+      "rounds": 4,
+      "inhaleIncrement": 0,
+      "holdIncrement": 0,
+      "exhaleIncrement": 0,
+      "description": "Crea un suono dolce durante il respiro, facilitando la concentrazione e la calma interiore.",
+      "alternateNostril": false,
+      "retentionAfterInhalation": true
+    }
+  ]
+}
